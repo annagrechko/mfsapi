@@ -10,14 +10,11 @@ API for unit testing *MFS*
 ### Login request [POST]
 + Request (application/json)
 
-        { "j_password": "test101",
-		  "j_username" : "Test101",
-		  "submit" : "submit"}
+        { "j_password": "test101","j_username" : "Test101","submit" : "submit"}
 
 + Response 302 (application/json)
 
-        { "JSESSIONID" : "66B46BB54A43B97BFB86F09B00E2F625",
-		 "Path" : "/mfs-server" }
+        { "JSESSIONID" : "66B46BB54A43B97BFB86F09B00E2F625","Path" : "/mfs-server" }
 
 ## Note [/notes/{id}]
 A single Note object with all its details
